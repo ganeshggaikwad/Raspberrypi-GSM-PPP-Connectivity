@@ -17,7 +17,9 @@ To check the port connectivity to raspberry pi, execute following command and se
     sudo ls /dev/tty*
  
 Now connect the power supply to the GSM module (in my case it is SIM800L) via suitable adapter and voltage regulator(recommended 4.1V, 1 Amp).
- 
+
+## Test the Setup
+
 If all the above setup is completes, run the python script to check if the connection is fine and module is able to communicate with RPi. 
 You can run a python script named test_gsm.py by executing following command:
 
@@ -31,6 +33,7 @@ For python 3 :
     
 If you get "OK" as the response then its all good else check steps again. 
 
+## Setup the PPP Connection
 
 APN : Acess Point Name
 
@@ -57,7 +60,7 @@ Now navigate to /etc/ppp/peers/ and open a new file named "rnet" by executing fo
     cd /etc/ppp/peers/
     sudo nano rnet
 
-Copy the content of rnet file in this open file and replace YOUR_NETWORK_APN with your APN you got from google. 
+Copy the content of rnet file [from this repo] in this open file and replace YOUR_NETWORK_APN with your APN you got from google. 
 Well now everything is setup now we need to create the PPP connection by executing last command. 
 
     sudo pon rnet
@@ -85,5 +88,6 @@ you will see the new internet port is opened with name PPP0.
 
 Also you can get the LED [network and status] notification on GSM modem about the Connection [in my case status LED blinks after every 3 seconds after successful connection].
 
-
+## Thank you for the reading.
+Always open for Any suggestions and Help.
 
