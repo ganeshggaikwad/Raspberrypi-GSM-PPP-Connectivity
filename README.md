@@ -84,7 +84,7 @@ Now every time your Pi boots it will automatically establish PPP connection. You
 
     ifconfig
 
-you will see the new internet port is opened with name PPP0.
+you will see the new internet port is opened with name ppp0.
 
 **Output Console Window**
 
