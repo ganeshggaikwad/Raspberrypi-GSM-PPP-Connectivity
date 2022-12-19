@@ -85,6 +85,10 @@ Now every time your Pi boots it will automatically establish PPP connection. You
     ifconfig
 
 you will see the new internet port is opened with name PPP0.
+**Output Console Window**
+
+![PPP GSM Output image](https://user-images.githubusercontent.com/84657983/208369068-e2fb47b1-5925-4220-8c41-e760d27c4728.jpg)
+
 
 Also you can get the LED [network and status] notification on GSM modem about the Connection [in my case status LED blinks after every 3 seconds after successful connection].
 
