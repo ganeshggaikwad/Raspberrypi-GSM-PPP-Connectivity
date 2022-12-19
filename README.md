@@ -94,5 +94,6 @@ you will see the new internet port is opened with name PPP0.
 Also you can get the LED [network and status] notification on GSM modem about the Connection [in my case status LED blinks after every 3 seconds after successful connection].
 
 **Thank you for the reading.**
+
 **Always open for Any suggestions and Help.**
 
